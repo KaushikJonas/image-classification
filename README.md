@@ -35,9 +35,6 @@ Input → Conv2D(32) → MaxPooling → Dropout
 → Conv2D(64) → MaxPooling → Dropout
 → Flatten → Dense(128) → Dropout → Dense(10, Softmax)
 
-yaml
-Copy
-Edit
 
 | Layer Type     | Description                  |
 |----------------|------------------------------|
