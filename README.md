@@ -45,20 +45,23 @@ Input → Conv2D(32) → MaxPooling → Dropout
 | Softmax Output | Predicts probabilities       |
 
 ---
-![Screenshot 2025-07-03 141820](https://github.com/user-attachments/assets/e0fd13d4-c8e8-425c-8e01-ed2a0e4c5631)
-![Screenshot 2025-07-03 141843](https://github.com/user-attachments/assets/a41a7b4b-9db9-4bd8-968c-d313c651c91f)
+![Screenshot 2025-07-03 142945](https://github.com/user-attachments/assets/34e3303e-aabb-45e8-98da-9924a2e2e399)
+![Screenshot 2025-07-03 143006](https://github.com/user-attachments/assets/c007fc66-92c1-497b-a9e7-b256d93e2069)
+
 
 ## ✅ Output
 
-`The notebook will train your CNN model on the CIFAR-10 dataset.`
+The notebook CNN.ipynb will train your CNN model on the CIFAR-10 dataset.
 
-`You will see the training progress for each epoch inside the notebook.`
+You will see the training progress for each epoch inside the notebook.
 
-`It will display training accuracy and loss after each epoch.`
+It will display the training accuracy and loss after each epoch.
 
-`The final test accuracy will be shown after evaluation.`
+The notebook will show the final test accuracy after evaluation.
 
-`All results, including accuracy and loss, will be visible within the notebook cells.`
+All results, including accuracy and loss, will appear directly inside the notebook.
+
+
 
 
 ## 📊 Results (CIFAR-10 CNN)
