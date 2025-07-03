@@ -45,19 +45,33 @@ Input → Conv2D(32) → MaxPooling → Dropout
 | Softmax Output | Predicts probabilities       |
 
 ---
+![Screenshot 2025-07-03 141820](https://github.com/user-attachments/assets/e0fd13d4-c8e8-425c-8e01-ed2a0e4c5631)
+![Screenshot 2025-07-03 141843](https://github.com/user-attachments/assets/a41a7b4b-9db9-4bd8-968c-d313c651c91f)
 
-## 🧪 Results
+## ✅ Output
 
-| Metric        | Value         |
-|---------------|---------------|
-| Test Accuracy | **~74%**      |
-| Epochs        | **10**        |
-| Optimizer     | Adam          |
-| Loss          | Categorical Crossentropy |
-| Batch Size    | 64            |
+`The notebook will train your CNN model on the CIFAR-10 dataset.`
 
----
+`You will see the training progress for each epoch inside the notebook.`
 
-![Screenshot 2025-07-02 191100](https://github.com/user-attachments/assets/b0e4fc11-44a1-48a2-9397-31c580081337)
-![Screenshot 2025-07-02 191136](https://github.com/user-attachments/assets/96289a43-7227-4b49-98be-0dc7846207ce)
-![Screenshot 2025-07-02 191801](https://github.com/user-attachments/assets/a98d32c6-3499-47f7-b419-a7c11f9f20b9)
+`It will display training accuracy and loss after each epoch.`
+
+`The final test accuracy will be shown after evaluation.`
+
+`All results, including accuracy and loss, will be visible within the notebook cells.`
+
+
+## 📊 Results (CIFAR-10 CNN)
+
+| 🔢 Parameter         | 🔍 Value                                 |
+| -------------------- | ---------------------------------------- |
+| 📦 Dataset           | CIFAR-10                                 |
+| 🖼️ Image Size       | 32 × 32 (RGB)                            |
+| 🔟 Number of Classes | 10                                       |
+| 🏋️ Epochs           | 10                                       |
+| 🗂️ Batch Size       | 25                                       |
+| ⚙️ Optimizer         | Adam                                     |
+| 🎯 Loss Function     | Categorical Crossentropy                 |
+| 🏆 Test Accuracy     | \~74%                                    |
+| ⏳ Training Status    | Completed Successfully                   |
+| 🚀 Model Type        | Basic Convolutional Neural Network (CNN) |
